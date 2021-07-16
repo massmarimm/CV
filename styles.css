@@ -1,20 +1,94 @@
+body {
+  display: block;
+  margin: 0px;
+}
+
+h1 {
+  color: white;
+  font-size: 150px;
+  font-family: 'Dancing Script', cursive;
+ padding-bottom: 20px;
+}
+h2 {
+  font-size: 75px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  padding-left: 300px;
+}
+.section1 {
+background-color: #B9BBDF;
+padding-top: 10px;
+padding-bottom: 200px;
+text-align: center;
+}
+.section2{
+  background-color: #878ECD;
+  padding-top: 60px;
+  padding-bottom: 400px;
+  text-align: center;
+}
+
+.section3{
+  background-color: #D59BF6;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  padding-left: 40%;
+  color: white;
+}
+.section4{
+  background-color: #521262;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 35%;
+}
+
 .profile-pic{
   float: left;
   border-radius: 50%;
   margin-right:40px;
+  margin-left: 50px;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 10%;
+  top: 45%;
+  border: 6px solid transparent;
+  border-color: white;
 }
 
 .work-table {
-  border: 1px solid black;
-  text-align: center;
+  padding-top: 50px;
+ position: absolute;
+ right: 30%;
 }
 
 .work-table th {
-  border: 1px solid black;
-  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 40px;
+  padding-bottom: 40px;
 }
 .work-table td {
-  border: 1px solid black;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+}
+.skills-table {
+  text-align: center;
+  position: absolute;
+  left: 20%;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+.Skills-table td {
   text-align: center;
 }
 
